@@ -25,11 +25,21 @@ a {
 }
 
 button {
+  font-family: inherit;
   cursor: pointer;
+  border: none;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input {
+  font-family: inherit;
+}
+
+fieldset {
+  margin: 0;
 }
